@@ -13,7 +13,7 @@ header {
 }
 
 .intro {
-    background-color: rgb(111, 111, 217);
+    background-color: #6f6fd9;
     padding-bottom: 30px;
     
 }
@@ -40,34 +40,144 @@ header {
    border-radius: 50%; 
 }
 
-.kitti-intro-wrapper {
-}
-
 .denes-intro-wrapper, 
 .gergely-intro-wrapper {
     margin-top: 70px;
 }
 
-.dénes-main-wrapper {
-    display: flex;
-    margin: 80px;
-    
+.btn-group .btn,
+.btn-group .collapse {
+    margin-right: 5px;
 }
 
-.btn-group {
+.dénes-main-wrapper {
+    background-color: aqua;
     display: flex;
-    flex-direction: column;
-    margin-left: auto;
+    padding: 80px;
 }
 
 .denes-intro-text {
-    max-width: 500px;
+    max-width: 520px;
     margin: 0 auto;
-    background-color: pink;
-
 }
 
 .dénes-main-wrapper img {
-    
-   margin: 15px;
+   width: 250px;
+   box-shadow: 6px 6px 0px #1D3557;
+   border-radius: 10px;
+
 }
+
+.kitti-main-wrapper {
+    background-color: #6f6fd9;
+    display: flex;
+    padding: 80px;
+}
+
+.kitti-intro-text {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.kitti-main-wrapper img {
+   width: 250px;
+   box-shadow: 6px 6px 0px #1D3557;
+   border-radius: 10px;
+
+}
+
+.gergely-main-wrapper {
+    background-color: aqua;
+    display: flex;
+    padding: 80px;
+}
+
+.gergely-intro-text {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.gergely-main-wrapper img {
+   width: 250px;
+   box-shadow: 6px 6px 0px #1D3557;
+   border-radius: 10px;
+
+}
+
+footer {
+    background-color: #6f6fd9;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+    margin: 0;
+}
+
+.card-body {
+    width: 300px;
+}
+
+@media screen and (max-width: 1900px) {
+    .dénes-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .dénes-main-wrapper img {
+        margin-right: 10px;
+        margin-bottom: 15px;
+     }
+    .kitti-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .kitti-main-wrapper img {
+        order: 1;
+        margin-right: 10px;
+        margin-bottom: 15px;
+     }
+     .kitti-intro-text {
+        order: 2;
+    }
+     .kitti-main-wrapper .btn-group {
+        order: 3;
+     }
+    .gergely-main-wrapper {
+        flex-wrap: wrap;
+    }
+    .gergely-main-wrapper img {
+        margin-right: 10px;
+        margin-bottom: 15px;
+     }
+  }
+
+  @media screen and (max-width: 960px) {
+    .denes-intro-text {
+        max-width: 520px;
+        text-align: start;
+        padding-left: 0;
+        margin: 0;
+    }
+    .kitti-intro-text {
+        max-width: 520px;
+        text-align: start;
+        padding-left: 0;
+        margin: 0;
+    }
+    .gergely-intro-text {
+        max-width: 520px;
+        text-align: start;
+        padding-left: 0;
+        margin: 0;
+    }
+    .card-body {
+        width: 220px;
+    }
+    .btn-group {
+        margin-top: 10px;
+    }
+
+  }
+  
+  @media screen and (max-width: 770px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+  }
