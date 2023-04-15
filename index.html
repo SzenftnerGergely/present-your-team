@@ -23,20 +23,25 @@
 
             <h2>Meet The Hippos</h2>
 
-            <div>
-                <img src="images/hippo1.jpg" alt="Dénes">
-                <p>Dénes</p>
+            <div class="intro-wrapper">
+
+                <div class="denes-intro-wrapper">
+                    <img src="images/hippo1.jpg" alt="Dénes">
+                    <p class="intro-names">Dénes</p>
+                </div>
+
+                <div class="kitti-intro-wrapper">
+                    <img src="images/hippo2.jpg" alt="Kitti">
+                    <p class="intro-names">Kitti</p>
+                </div>
+
+                <div class="gergely-intro-wrapper">
+                    <img src="images/hippo3.jpg" alt="Gergely">
+                    <p class="intro-names">Gergely</p>
+                </div>
+
             </div>
 
-            <div>
-                <img src="images/hippo2.jpg" alt="Kitti">
-                <p>Kitti</p>
-            </div>
-
-            <div>
-                <img src="images/hippo3.jpg" alt="Gergely">
-                <p>Gergely</p>
-            </div>
 
         </section> <!-- Closing of Intro section -->
 
@@ -44,57 +49,68 @@
 
             <img src="images/hippo1.jpg" alt="Dénes">
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            <p class="denes-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
                 into electronic typesetting, remaining essentially unchanged.</p>
 
             <div class="btn-group">
+                <div>
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample1" aria-expanded="false"
+                            aria-controls="collapseWidthExample1">
+                            Books
+                        </button>
+                    </p>
+                    <div style="min-height: 0px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                            <div class="card card-body" style="width: 300px;">
+                                This is some placeholder content for a horizontal collapse. It's hidden by default and
+                                shown
+                                when triggered.
+                            </div>
+                        </div>
+                    </div>
 
-                <p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseWidthExample1" aria-expanded="false"
-                        aria-controls="collapseWidthExample1">
-                        Books
-                    </button>
-                </p>
-                <div style="min-height: 0px;">
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample1">
-                        <div class="card card-body" style="width: 300px;">
-                            This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                            when triggered.
+                </div>
+
+                <div>
+
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample2" aria-expanded="false"
+                            aria-controls="collapseWidthExample2">
+                            Movies
+                        </button>
+                    </p>
+                    <div style="min-height: 0px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                            <div class="card card-body" style="width: 300px;">
+                                This is some placeholder content for a horizontal collapse. It's hidden by default and
+                                shown
+                                when triggered.
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseWidthExample2" aria-expanded="false"
-                        aria-controls="collapseWidthExample2">
-                        Movies
-                    </button>
-                </p>
-                <div style="min-height: 0px;">
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample2">
-                        <div class="card card-body" style="width: 300px;">
-                            This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                            when triggered.
-                        </div>
-                    </div>
-                </div>
+                <div>
 
-                <p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseWidthExample3" aria-expanded="false"
-                        aria-controls="collapseWidthExample3">
-                        Town
-                    </button>
-                </p>
-                <div style="min-height: 0px;">
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample3">
-                        <div class="card card-body" style="width: 300px;">
-                            This is some placeholder content for a horizontal collapse. It's hidden by default and shown
-                            when triggered.
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample3" aria-expanded="false"
+                            aria-controls="collapseWidthExample3">
+                            Town
+                        </button>
+                    </p>
+                    <div style="min-height: 0px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                            <div class="card card-body" style="width: 300px;">
+                                This is some placeholder content for a horizontal collapse. It's hidden by default and
+                                shown
+                                when triggered.
+                            </div>
                         </div>
                     </div>
                 </div>

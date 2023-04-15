@@ -1,5 +1,73 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;;
+    padding: 0;
+
+}
+
+header {
+    text-align: center;    
+    padding: 90px;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+    background-color: rgb(111, 111, 217);
+    padding-bottom: 30px;
+    
+}
+
+.intro h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.intro-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    
+}
+
+.intro-names {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.intro-wrapper div img {
+   border-radius: 50%; 
+}
+
+.kitti-intro-wrapper {
+}
+
+.denes-intro-wrapper, 
+.gergely-intro-wrapper {
+    margin-top: 70px;
+}
+
+.dénes-main-wrapper {
+    display: flex;
+    margin: 80px;
+    
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.denes-intro-text {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: pink;
+
+}
+
+.dénes-main-wrapper img {
+    
+   margin: 15px;
 }
