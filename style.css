@@ -40,6 +40,14 @@ header {
    border-radius: 50%; 
 }
 
+.kitti-intro-img,
+.dénes-intro-img,
+.gergely-intro-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
 .denes-intro-wrapper, 
 .gergely-intro-wrapper {
     margin-top: 70px;
